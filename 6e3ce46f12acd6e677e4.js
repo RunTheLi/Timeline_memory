@@ -8,7 +8,7 @@ const events = [
     title: "The first day we talked 💕",
     note: "The beginning of our story.",
     description: "We chatted for hours and really connected that day.",
-    img: "src/images/love.png"
+    img: "images/love.png"
   },
   {
     date: "14-02-2025",
