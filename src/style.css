@@ -1,0 +1,96 @@
+
+/* styles.css */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fff0f6;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #d63384;
+}
+
+.frame {
+  height: 80px;
+  padding-top: 5px;
+  position: sticky;
+  top: 0;              /* distance from top */
+  background: rgb(255, 234, 252);   /* prevent overlap */
+  z-index: 1000;       /* stay above content */
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  border-radius: 50px;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #d63384;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: 16px;
+}
+
+.event {
+  padding: 20px;
+  position: relative;
+  width: 50%;
+}
+
+.event img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.event::before {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d63384;
+  border: 2px solid #fff;
+  z-index: 1;
+  
+}
+
+.left::before {
+  right: 10px;
+}
+
+.right::before {
+  left: 5px;
+}
+
+.event-content {
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 2px solid rgb(204, 200, 200);
+  border-radius: 20px;
+}
+
