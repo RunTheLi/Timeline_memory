@@ -1,6 +1,7 @@
 // webpack.config.js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: "development",
@@ -18,6 +19,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    new CopyPlugin({ // 👈 Add this new plugin configuration
+      patterns: [
+        { from: 'public/images', to: 'images' }
+      ]
+    }),
   ],
   module: {
     rules: [
@@ -28,10 +34,6 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: "html-loader",
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
       },
     ],
   },
