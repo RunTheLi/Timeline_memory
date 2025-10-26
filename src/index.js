@@ -39,6 +39,13 @@ const events = [
     img: "images/run.jpg"
   },
   {
+    date: "23-10-2025-",
+    title: "Bangkok trip YAY! ✈️",
+    note: "So much fun and love.",
+    description: "We spent our days exploring, laughing, and eating everything we could find. From Japanese food to sweet desserts,.",
+    img: "images/bkk2.jpg"
+  },
+  {
     date: "2025-XX-XX",
     title: "Where should we go next?",
     note: "To be continuous!",
