@@ -52,7 +52,7 @@ h1 {
 
 .event img {
   height: auto;
-  width: auto;
+  width: 180px;
   max-width: 250px;
   max-height: 250px;
   object-fit: cover;
@@ -90,8 +90,8 @@ h1 {
 }
 
 .event-content {
-  height: auto;
   width: auto;
+  height: auto;
   padding: 15px;
   background-color: #fff;
   border-bottom: 2px solid rgb(204, 200, 200);

@@ -53,7 +53,7 @@ const events = [
     img: "images/Huahin.jpg"
   },
   {
-    date: "2025-XX-XX",
+    date: "2026-XX-XX",
     title: "Where should we go next?",
     note: "To be continuous!",
     description: " CHIANG MAI AGAIN !!!",
