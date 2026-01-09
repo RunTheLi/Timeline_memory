@@ -15,7 +15,7 @@ h1 {
 }
 
 .frame {
-  height: 80px;
+  height: auto;
   padding-top: 5px;
   position: sticky;
   top: 0;              /* distance from top */
@@ -51,8 +51,10 @@ h1 {
 }
 
 .event img {
-  width: 100%;
-  max-height: 200px;
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -88,6 +90,8 @@ h1 {
 }
 
 .event-content {
+  height: auto;
+  width: auto;
   padding: 15px;
   background-color: #fff;
   border-bottom: 2px solid rgb(204, 200, 200);

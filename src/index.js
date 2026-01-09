@@ -40,10 +40,17 @@ const events = [
   },
   {
     date: "23-10-2025-",
-    title: "Bangkok trip YAY! ✈️",
-    note: "So much fun and love.",
+    title: "Bangkok trip Again YAY! ✈️",
+    note: "Traveling is better when I’m with you.",
     description: "We spent our days exploring, laughing, and eating everything we could find. From Japanese food to sweet desserts,.",
     img: "images/bkk2.jpg"
+  },
+  {
+    date: "31-12-2025-",
+    title: "Memories made with my favorite person! ✈️",
+    note: "A trip I’ll always remember.",
+    description: "We welcomed the New Year by traveling to Bangkok and Hua Hin, sharing laughs, exploring new places, and enjoying every moment side by side..",
+    img: "images/Huahin.jpg"
   },
   {
     date: "2025-XX-XX",
